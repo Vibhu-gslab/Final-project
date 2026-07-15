@@ -1,0 +1,10 @@
+name: CI-Vibhu
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  ci:
+    uses: avd/.github/workflows/pull-request-management.yml
+    
